@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.79.0",
+    "chalk": "^4.1.2",
+    "commander": "^9.2.0",
+    "inquirer": "^8.2.3",
+    "ora": "^5.4.1"
+  },
+  "bin": {
+    "logtale": "./index.js"
+  },
+  "name": "logtale",
+  "description": "A handy command-line tool for watching AWS CloudWatch logs",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "aws",
+    "cloudwatch",
+    "logs"
+  ],
+  "author": "ttimehc@gmail.com",
+  "license": "MIT"
+}
